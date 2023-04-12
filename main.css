@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+}
+header{
+    position: inherit;
+    display:flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    background-color: bisque;
+}
+header .leftPart1{
+    display: flex;
+    position: inherit;
+    flex-direction: column;
+    margin: 10px 2%;
+    width: 50%
+}
+header .leftPart1 h1 {
+    position: inherit;
+    align-self: center;
+    width: fit-content;
+    border-bottom: 2px rgb(202, 18, 144) solid;
+    line-height: 40px;
+    color:rgb(202, 18, 144);
+}
+header .leftPart1 p {
+    position: inherit;
+    width: fit-content;
+    align-self: center;
+    margin-top: 10px;
+}
+header .rightPart1{
+    display: flex;
+    position: inherit;
+    justify-content: flex-end;
+    /* flex-direction: row-reverse; */
+    margin: 10px 2%;
+    width: 50%
+    
+}
+#img1{
+    position: inherit;
+    height: 80%;
+    width: 100px;
+    background-color: rgb(13, 51, 31);
+}
+#img2{
+    position: inherit;
+    height: 80%;
+    width: 100px;
+    background-color: aqua;
+}
+main{
+    position: inherit;
+    width: 100%;
+    height:700px;
+}
+/* main .leftPart2 {
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .leftPart2 h5{
+   color: blue;
+   transform: rotate(-90deg);
+   height: 180px;
+   width: 200px;
+   font-size: 1.5rem;
+} */
+main .rightPart2 {
+    position: relative;
+    width: 100%;
+    margin: 10px 50px 10px 10px;
+    height: 700px;
+
+}
+canvas #myChart {
+    width: 100%;
+    
+}
+footer{
+    position: inherit;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer p {
+    margin: 10px 15px;
+}
